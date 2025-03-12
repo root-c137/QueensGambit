@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "CommonJS",
+      "outDir": "./dist", // Compilé dans le dossier 'dist'
+      "rootDir": "./src", // Code source dans le dossier 'src'
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true
+    },
+    "include": [
+      "src/**/*"
+    ]
+  }
+  
